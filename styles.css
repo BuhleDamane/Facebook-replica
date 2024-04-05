@@ -78,6 +78,17 @@ body {
     width: 20px;
     margin: 0;
 }
+.checkbox-pass{
+
+  border: 1 solid rgb(215, 218, 222)
+  
+}
+.forgot-checkbox{
+  font-size: 17px;
+color: rgb(118, 120, 121);
+font-family: inherit;
+font-weight: 500;
+}
 
 button{
   box-shadow: none;
@@ -228,17 +239,8 @@ button{
 }
 /* forgot password.html end */
 
-.checkbox-pass{
+/* account.html start */
 
-  border: 1 solid rgb(215, 218, 222)
-  
-}
-.forgot-checkbox{
-  font-size: 17px;
-color: rgb(118, 120, 121);
-font-family: inherit;
-font-weight: 500;
-}
 .account-container{
   background-color: white;
   width: 450px;
@@ -248,15 +250,8 @@ font-weight: 500;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   margin-top: -40px;
 }
-.line4{
-  border: 1px solid #222;
-  opacity: 0.1;
-  width: 450px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
 .sign-up{
-  margin-left: -340px;
+  margin-left: 10px;
   color: #1c1e21;
     font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
     font-size: 32px;
@@ -264,14 +259,22 @@ font-weight: 500;
     margin-bottom: 0;
 }
 .quick{
-  margin-top: -10px;
-  margin-left: -293px;
+  margin-top: -5px;
+  margin-left: 10px;
   color: #606770;
   font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 24px;
   margin-bottom: 25px;
 }
+.line4{
+  border: 1px solid #222;
+  opacity: 0.1;
+  width: 450px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 .name{
   width: 185px;
   height: 23px;
@@ -327,7 +330,7 @@ font-weight: 500;
     line-height: 20px;
     margin-bottom: 0;
     margin-top: 2px;
-    margin-left: -352px;
+    margin-left: 10px;
     margin-bottom: -10px;
 }
 .day{
@@ -362,12 +365,20 @@ font-weight: 500;
     font-weight: normal;
     line-height: 20px;
     margin-bottom: 0;
-    margin-left: -377px;
+    margin-left: 10px;
     margin-bottom: -10px;
     margin-top: -3px;
     outline: none;
 }
-
+#all_gender{
+  width: 150px;
+  height: 25px;
+  border: 1 solid #aaa;
+  padding: 8px 0 0 8px;
+}
+.all_gender{
+  display: flex;
+}
 .female{
   width: 132px;
   height: 33px;
@@ -379,7 +390,6 @@ font-weight: 500;
   
 }
 .male{
-  
   width: 132px;
   height: 33px;
   margin: 10px;
@@ -408,6 +418,10 @@ font-weight: 500;
   text-align: left;
   margin-left: 10px;
 }
+.span-para{
+  color: #1877f2;
+  cursor: pointer;
+}
 .butt{
   cursor: pointer;
   width: 190px;
@@ -422,16 +436,5 @@ font-weight: 500;
   font-size: 16px;
   
 }
-.span-para{
-  color: #1877f2;
-  cursor: pointer;
-}
-.all_gender{
-  display: flex;
-}
-#all_gender{
-  width: 150px;
-  height: 25px;
-  border: 1 solid #aaa;
-  padding: 8px 0 0 8px;
-}
+
+
