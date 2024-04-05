@@ -447,6 +447,8 @@ button{
   .facebook-app{
     width: 200px;
     height: 300px;
+    border-radius: 10px;
+    margin-left: -5px;
 
   }
   h1.login{
@@ -454,14 +456,14 @@ button{
     font-size: 20px;
   }
   .details{
-    width: 180px;
+    width: 200px;
     font-size: 12px;
     height: 4px;
     margin-top: -5px;
   }
   .password{
     margin-top: -5px;
-    width: 180px;
+    width: 200px;
     font-size: 12px;
     height: 4px;
   }
@@ -474,7 +476,7 @@ button{
     margin-top: -30px;
   }
   .forgotten{
-    width: 190px;
+    width: 215px;
     height: 40px;
     font-size: 12px;
     margin-left: 5px;
@@ -535,5 +537,9 @@ button{
   width: 75px;
 }
   /* forgot passweord.html @media ends */
+  /* account.html @media starts */
+
+  /* account.html @media ends */
+  
 }
 
