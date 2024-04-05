@@ -27,17 +27,17 @@ body {
     color: #1877f2;
     text-align: center;
     vertical-align: middle;
-    font-family: inherit;
+    font-family:Arial, Helvetica, sans-serif
     font-weight: bold;
     font-size: 30px;
     line-height: 24px;
     padding: 6px 0 12px 36px;
+    margin-top: -30px
     
   }
   .login{
-    margin-top: -100px;
     margin-left: -30px;
-    margin-bottom: -50px;
+    margin-bottom: 10px;
   }
   
   .details{
