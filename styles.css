@@ -35,8 +35,9 @@ body {
     
   }
   .login{
-    margin-top: -25px;
+    margin-top: -100px;
     margin-left: -30px;
+    margin-bottom: -50px;
   }
   
   .details{
@@ -75,7 +76,7 @@ body {
 .checkbox-pass{
   margin-left: -100px;
   height: 15px;
-    width: 20px;
+    width: 18px;
     margin: 0;
 }
 .checkbox-pass{
@@ -84,10 +85,10 @@ body {
   
 }
 .forgot-checkbox{
-  font-size: 17px;
+  font-size: 15px;
 color: rgb(118, 120, 121);
-font-family: inherit;
-font-weight: 500;
+font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+font-weight: normal;
 }
 
 button{
@@ -100,19 +101,20 @@ button{
   font-size: large;
   font-weight: bold;
   color: white;
-  background-color: #1877f2;
+  background-color: #0866ff;
+  font-size: 20px;
   width: 370px;
   border: none;
-  height: 1cm;
-  border-radius: 5px;
+  height: 50px;
+  border-radius: 6px;
 }
 
   .forgot-password{
-    color: #1877f2;
+    color: #0866ff;
     text-align: center;
-    font-size: 15;
+    font-size: 14;
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 500;
   }
   .line1{
     border: 1px solid #222;
@@ -124,18 +126,17 @@ button{
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    background-color: #40cd24;
+    background-color: #42b72a;
     border: none;
     border-radius: 6px;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 48px;
-    padding: 0 16px;
     font-weight: 600;
     margin-top: 5px;
     font-family: inherit;
     color: white;
     cursor: pointer;
-    
+    padding: 0 16px;
 
   }
   .create{
@@ -445,58 +446,66 @@ button{
     margin-top: 50px;
   }
   .facebook-app{
-    width: 200px;
+    width: 260px;
     height: 300px;
     border-radius: 10px;
-    margin-left: -5px;
+    margin-left: -35px;
 
   }
   h1.login{
-    margin-left: -20px;
+    margin-left: -30px;
     font-size: 20px;
   }
   .details{
-    width: 200px;
+    width: 250px;
     font-size: 12px;
     height: 4px;
     margin-top: -5px;
   }
   .password{
     margin-top: -5px;
-    width: 200px;
+    width: 250px;
     font-size: 12px;
     height: 4px;
   }
   .checkbox-pass{
-    width: 10px;
+    width: 15px;
     margin: 0;
+    border: 1px solid #CCCCCC;
+    border: none;
   }
   .forgot-checkbox{
-    font-size: 10px;
+    font-size: 12px;
     margin-top: -30px;
+    
+    
   }
   .forgotten{
-    width: 215px;
-    height: 40px;
-    font-size: 12px;
+    width: 260px;
+    height: 47px;
+    font-size: 16px;
     margin-left: 5px;
+    font-weight: 600px;
+    
   }
   .forgot-password{
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 500;
   }
   .line1{
-    width: 299px;
+    width: 358px;
   }
   .new{
-    width: 150px;
-    font-size: 12px;
-    height: 45px;
+    width: 200px;
+    font-size: 16px;
+    height: 47px;
     margin: 0 auto;
     margin-top: 10px;
     margin-left: 30px;
   }
   .create{
-    font-size: 10px;
+    font-size: 13px;
+  
   }
   .page{
     cursor: pointer;
