@@ -147,6 +147,9 @@ button{
     font-size: 14px;
 
   }
+  .page{
+    cursor: pointer;
+  }
   /* index.html end */
   a{
     text-decoration: none;
@@ -436,5 +439,63 @@ button{
   font-size: 16px;
   
 }
+@media (max-width: 576px){
+  .face-app{
+    margin-top: 50px;
+  }
+  .facebook-app{
+    width: 200px;
+    height: 300px;
 
+  }
+  h1.login{
+    margin-left: -20px;
+    font-size: 20px;
+  }
+  .details{
+    width: 180px;
+    font-size: 12px;
+    height: 4px;
+    margin-top: -5px;
+  }
+  .password{
+    margin-top: -5px;
+    width: 180px;
+    font-size: 12px;
+    height: 4px;
+  }
+  .checkbox-pass{
+    width: 10px;
+    margin: 0;
+  }
+  .forgot-checkbox{
+    font-size: 10px;
+    margin-top: -30px;
+  }
+  .forgotten{
+    width: 190px;
+    height: 40px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .forgot-password{
+    font-size: 10px;
+  }
+  .line1{
+    width: 299px;
+  }
+  .new{
+    width: 150px;
+    font-size: 12px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .create{
+    font-size: 10px;
+  }
+  .page{
+    cursor: pointer;
+  }
+}
 
