@@ -440,6 +440,7 @@ button{
   
 }
 @media (max-width: 576px){
+  /* index.html @media starts */
   .face-app{
     margin-top: 50px;
   }
@@ -497,5 +498,42 @@ button{
   .page{
     cursor: pointer;
   }
+  /* index.html @media ends */
+  /* forgot passweord.html @media starts */
+.reset{
+  margin-top: 100px;
+  width: 225px;
+  margin-left: -20px;
+  height: 150px;
+}
+.h1-reset{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.line2{
+  width: 323px;
+ 
+}
+.reset-para{
+  font-size: 12px;
+  margin-top: 20px;
+}
+.reset-input{
+  width: 250px;
+  font-size: 12px;
+  height: 4px;
+}
+.line3{
+  width: 323px;
+}
+.cancel{
+  font-size: 12px;
+  width: 75px;
+}
+.search{
+  font-size: 12px;
+  width: 75px;
+}
+  /* forgot passweord.html @media ends */
 }
 
