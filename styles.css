@@ -493,6 +493,7 @@ button{
     height: 45px;
     margin: 0 auto;
     margin-top: 10px;
+    margin-left: 30px;
   }
   .create{
     font-size: 10px;
