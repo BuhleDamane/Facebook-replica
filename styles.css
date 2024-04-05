@@ -539,7 +539,89 @@ button{
 }
   /* forgot passweord.html @media ends */
   /* account.html @media starts */
+  .account-container{
+    margin-top: 10px;
+    margin-left: -20px;
+    width: 340px;
+    height: 500px;
+  }
+  .sign-up{
+    font-size: 25px;
 
+  }
+  .quick{
+    font-size: 12px;
+    margin-top: -10px;
+  }
+  .line4{
+    width: 338px;
+  }
+  .name{
+    width: 130px;
+    font-size: 12px;
+    height: 20px;
+  }
+  .surname{
+    width: 130px;
+    font-size: 12px;
+    height: 20px;
+  }
+  .mobile-input{
+    width: 295px;
+    font-size: 12px;
+    height: 20px;
+  }
+  .password-account{
+    width: 295px;
+    font-size: 12px;
+    height: 20px;
+  }
+  .date-of-birth-para{
+    font-size: 9px;
+    margin-bottom: -14px;
+    margin-left: 12px;
+  }
+  .day{
+    width: 100px;
+    height: 35px;
+  }
+  .month{
+    width: 100px;
+    height: 35px;
+  }
+  .year{
+    width: 100px;
+    height: 35px;
+  }
+  .gender-para{
+    font-size: 9px;
+    margin-bottom: -14px;
+    margin-left: 12px;
+  
+  }
+  #all_gender{
+    width: 100px;
+    font-size: 12px;
+    height: 25px;
+  }
+  .female{
+    width: 30px;
+  }
+  .male{
+    width: 30px;
+  }
+  .custom{
+    width: 30px;
+  }
+  .terms{
+    font-size: 9px;
+  }
+  .butt{
+    width: 120px;
+    font-size: 13px;
+    margin-top: 18px;
+    margin-left: 115px;
+  }
   /* account.html @media ends */
   
 }
